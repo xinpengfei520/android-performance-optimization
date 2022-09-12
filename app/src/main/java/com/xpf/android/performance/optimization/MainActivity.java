@@ -1,10 +1,13 @@
 package com.xpf.android.performance.optimization;
 
 import android.os.Bundle;
+import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.xpf.android.performance.optimization.utils.LaunchRecord;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
         btnTest = findViewById(R.id.btnTest);
 
         btnTest.setOnClickListener(v -> generateImageViews());
+
+        btnTest.getViewTreeObserver().addOnDrawListener(() ->
+                LaunchRecord.INSTANCE.end("onDraw")
+        );
     }
 
     private void generateImageViews() {
@@ -27,5 +34,11 @@ public class MainActivity extends AppCompatActivity {
         System.gc();
         // 强制回收 Finalizer 对象
         System.runFinalization();
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        LaunchRecord.INSTANCE.end("onWindowFocusChanged");
     }
 }
