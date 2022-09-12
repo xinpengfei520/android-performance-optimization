@@ -1,4 +1,4 @@
-package com.xpf.android.memory.optimized;
+package com.xpf.android.performance.optimization;
 
 import org.junit.Test;
 
