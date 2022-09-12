@@ -1,6 +1,6 @@
 # android-performance-optimization
 
-Android Performance Optimized Best Practice.
+Android Performance Optimization Best Practice.
 
 ## 前言
 
@@ -19,11 +19,12 @@ Android Performance Optimized Best Practice.
 
 ## Reference Links
 
-[应用启动时间](https://developer.android.com/topic/performance/vitals/launch-time)
-[How to correctly measure the App Startup time on Android](https://blog.dipien.com/how-to-correctly-measure-the-app-startup-time-on-android-36eea148653c)
-[Improving App Startup: Lessons from the Facebook App](https://android-developers.googleblog.com/2021/11/improving-app-startup-facebook-app.html)
-[Android app startup time: why we care](https://medium.com/incognia-tech/android-app-startup-time-why-we-care-b70eada84b26)
-[Measure Android app startup time](https://stackoverflow.com/questions/14124913/measure-android-app-startup-time)
-[提升Android下内存的使用意识和排查能力](https://yq.aliyun.com/articles/225751)
-[Android性能优化之启动优化实战](https://segmentfault.com/a/1190000020904556)
-[App startup time optimization](https://www.jeet.world/app-startup-time-optimisation/)
+- [https://androidperformance.com/](https://androidperformance.com/)
+- [应用启动时间](https://developer.android.com/topic/performance/vitals/launch-time)
+- [How to correctly measure the App Startup time on Android](https://blog.dipien.com/how-to-correctly-measure-the-app-startup-time-on-android-36eea148653c)
+- [Improving App Startup: Lessons from the Facebook App](https://android-developers.googleblog.com/2021/11/improving-app-startup-facebook-app.html)
+- [Android app startup time: why we care](https://medium.com/incognia-tech/android-app-startup-time-why-we-care-b70eada84b26)
+- [Measure Android app startup time](https://stackoverflow.com/questions/14124913/measure-android-app-startup-time)
+- [提升Android下内存的使用意识和排查能力](https://yq.aliyun.com/articles/225751)
+- [Android性能优化之启动优化实战](https://segmentfault.com/a/1190000020904556)
+- [App startup time optimization](https://www.jeet.world/app-startup-time-optimisation/)
